@@ -448,8 +448,9 @@ a:focus {
     background-repeat: no-repeat;
 #    background-position: center center;
     background-position: top;
-#    background-size: cover;
+    background-size: cover;
     height: 600px;
+
 }
 
 #contact,
