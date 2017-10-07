@@ -8,7 +8,9 @@ body {
     font-family: "Source Sans Pro", sans-serif;
 }
 
-h1,
+}
+
+h1, 
 h2,
 h3,
 h4,
@@ -30,7 +32,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #0c86b6;
+    color: #53785a;
     text-decoration: none;
 }
 
@@ -69,35 +71,35 @@ a:focus {
 }
 .btn-blue {
     color: #fff;
-    background: #227fe8;
+    background: #53785a;/*-- 第一张大图中间按钮--*/
 }
 
 .btn-blue:hover,
 .btn-blue:focus {
     color: #fff;
-    background: #233b6f;
+    background: #789572;/*-- 第一张大图中间按钮按下--*/
 }
 
 .btn-green {
     color: #fff;
-    background: #f5b76a;
+    background: #53785a;
 }
 
 .btn-green:hover,
 .btn-green:focus {
     color: #fff;
-    background: #233b6f;
+    background: #789572;
 }
 
 .btn-dark {
     color: #fff;
-    background: #233b6f;
+    background: #53785a;
 }
 
 .btn-dark:hover,
 .btn-dark:focus {
     color: #fff;
-    background: #233b6f;
+    background: #789572	;
 }
 
 .list-inline-item:not(:last-child) {
@@ -141,7 +143,7 @@ a:focus {
     width: 50%;
     height: 50%;
     content: "";
-    background: #233b6f;
+    background: #53785a;
     border-radius: 100% 0 0 0;
 }
 
@@ -169,7 +171,7 @@ a:focus {
 
 .navbar-light .navbar-brand {
     font-weight: bold;
-    color: #666;
+    color: #000;/*-- 导航菜单字--*/
     text-transform: uppercase;
 }
 
@@ -181,7 +183,7 @@ a:focus {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link:hover,
 .navbar-light .navbar-nav .active > .nav-link:focus {
-    color: #227fe8;
+    color: #53785a;/*-- 导航菜单字按下--*/
     background: transparent;
 }
 
@@ -217,7 +219,7 @@ a:focus {
     height: 2px;
     margin-left: auto;
     margin-right: auto;
-    background: #f5b76a;
+    background: #53785a;/*-- 下划线--*/
 }
 
 .page.overlay:after {
@@ -245,13 +247,14 @@ a:focus {
 }
 
 #home h1 {
-    font-size: 4rem;
+
+    font-size: 3rem;/*-- 首图面里的字体大小--*/
     line-height: 1;
 }
 
 #services {
-    background: #f5f5f5;
-    border-bottom: 1px solid #e7e7e7;
+    background: #fff;/*-- SERVICES页面背景--*/
+    border-bottom: 1px solid #fff;/*-- SERVICES页面下的分割线--*/
 }
 
 #services .service i {
@@ -259,7 +262,7 @@ a:focus {
 }
 
 #services .service:hover i {
-    color: #f5b76a;
+    color: #53785a;/*-- SERVICES页面下的图标选中颜色--*/
 }
 
 #work .heading p {
@@ -287,7 +290,7 @@ a:focus {
 }
 
 #portfolio .filters li a.active {
-    color: #227fe8;
+    color: #53785a;/*-- WORK页面下文字颜色--*/
 }
 
 #portfolio .items li {
@@ -342,7 +345,7 @@ a:focus {
 
 #clients {
     color: #fff;
-    background: #233b6f;
+    background: #53785a;/*-- CLIENTS页面背景--*/
 }
 
 #testimonials .item {
@@ -389,7 +392,7 @@ a:focus {
 }
 
 #testimonials .carousel-indicators .active {
-    background: #f5b76a;
+    background: #fff;
     border-color: #fff;
 }
 
@@ -443,8 +446,10 @@ a:focus {
 #contact {
     background: url(../img/cover/contact.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+#    background-position: center center;
+    background-position: top;
+#    background-size: cover;
+    height: 810px
 }
 
 #contact,
@@ -470,7 +475,8 @@ a:focus {
     padding: 4rem 0;
     color: #ccc;
     text-align: center;
-    background: #233b6f;
+    background: #53785a;
+#    background: #000;
 }
 
 #footer a,
