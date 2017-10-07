@@ -449,7 +449,7 @@ a:focus {
 #    background-position: center center;
     background-position: top;
 #    background-size: cover;
-    height: 590px;
+    height: 600px;
 }
 
 #contact,
@@ -551,17 +551,19 @@ a:focus {
 
 
 /* Responsive style */
-
 @media (max-width: 575px) {
-   #contact {
-       height: 800px;
-   }
-}
-
+    #contact {
+        height: 800px;
+    }
+ }
 @media (min-width: 576px) {
+    #contact .content.cover {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
     .page .content.cover {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 12rem;
+        margin-bottom: 12rem;
     }
     #portfolio .items li {
         width: 50%;
@@ -572,9 +574,13 @@ a:focus {
 }
 
 @media (min-width: 768px) {
+    #contact .content.cover {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
     .page .content.cover {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-top: 16rem;
+        margin-bottom: 16rem;
     }
     #portfolio .items li {
         width: 25%;
@@ -585,9 +591,13 @@ a:focus {
 }
 
 @media (min-width: 992px) {
-    .page .content.cover {
+    #contact .content.cover {
         margin-top: 4rem;
         margin-bottom: 4rem;
+    }
+    .page .content.cover {
+        margin-top: 30rem;
+        margin-bottom: 45rem;
     }
     .navbar-light .navbar-nav .nav-link {
         padding-right: 1rem;
