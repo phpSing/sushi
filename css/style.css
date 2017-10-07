@@ -71,13 +71,13 @@ a:focus {
 }
 .btn-blue {
     color: #fff;
-    background: #53785a;/*-- µÚÒ»ÕÅ´óÍ¼ÖÐ¼ä°´Å¥--*/
+    background: #53785a;/*-- ï¿½ï¿½Ò»ï¿½Å´ï¿½Í¼ï¿½Ð¼ä°´Å¥--*/
 }
 
 .btn-blue:hover,
 .btn-blue:focus {
     color: #fff;
-    background: #789572;/*-- µÚÒ»ÕÅ´óÍ¼ÖÐ¼ä°´Å¥°´ÏÂ--*/
+    background: #789572;/*-- ï¿½ï¿½Ò»ï¿½Å´ï¿½Í¼ï¿½Ð¼ä°´Å¥ï¿½ï¿½ï¿½ï¿½--*/
 }
 
 .btn-green {
@@ -171,7 +171,7 @@ a:focus {
 
 .navbar-light .navbar-brand {
     font-weight: bold;
-    color: #000;/*-- µ¼º½²Ëµ¥×Ö--*/
+    color: #000;/*-- ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½--*/
     text-transform: uppercase;
 }
 
@@ -183,7 +183,7 @@ a:focus {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link:hover,
 .navbar-light .navbar-nav .active > .nav-link:focus {
-    color: #53785a;/*-- µ¼º½²Ëµ¥×Ö°´ÏÂ--*/
+    color: #53785a;/*-- ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½Ö°ï¿½ï¿½ï¿½--*/
     background: transparent;
 }
 
@@ -219,7 +219,7 @@ a:focus {
     height: 2px;
     margin-left: auto;
     margin-right: auto;
-    background: #53785a;/*-- ÏÂ»®Ïß--*/
+    background: #53785a;/*-- ï¿½Â»ï¿½ï¿½ï¿½--*/
 }
 
 .page.overlay:after {
@@ -248,13 +248,13 @@ a:focus {
 
 #home h1 {
 
-    font-size: 3rem;/*-- Ê×Í¼ÃæÀïµÄ×ÖÌå´óÐ¡--*/
+    font-size: 3rem;/*-- ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡--*/
     line-height: 1;
 }
 
 #services {
-    background: #fff;/*-- SERVICESÒ³Ãæ±³¾°--*/
-    border-bottom: 1px solid #fff;/*-- SERVICESÒ³ÃæÏÂµÄ·Ö¸îÏß--*/
+    background: #fff;/*-- SERVICESÒ³ï¿½æ±³ï¿½ï¿½--*/
+    border-bottom: 1px solid #fff;/*-- SERVICESÒ³ï¿½ï¿½ï¿½ÂµÄ·Ö¸ï¿½ï¿½ï¿½--*/
 }
 
 #services .service i {
@@ -262,7 +262,7 @@ a:focus {
 }
 
 #services .service:hover i {
-    color: #53785a;/*-- SERVICESÒ³ÃæÏÂµÄÍ¼±êÑ¡ÖÐÑÕÉ«--*/
+    color: #53785a;/*-- SERVICESÒ³ï¿½ï¿½ï¿½Âµï¿½Í¼ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½É«--*/
 }
 
 #work .heading p {
@@ -290,7 +290,7 @@ a:focus {
 }
 
 #portfolio .filters li a.active {
-    color: #53785a;/*-- WORKÒ³ÃæÏÂÎÄ×ÖÑÕÉ«--*/
+    color: #53785a;/*-- WORKÒ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«--*/
 }
 
 #portfolio .items li {
@@ -345,7 +345,7 @@ a:focus {
 
 #clients {
     color: #fff;
-    background: #53785a;/*-- CLIENTSÒ³Ãæ±³¾°--*/
+    background: #53785a;/*-- CLIENTSÒ³ï¿½æ±³ï¿½ï¿½--*/
 }
 
 #testimonials .item {
@@ -449,7 +449,7 @@ a:focus {
 #    background-position: center center;
     background-position: top;
 #    background-size: cover;
-    height: 810px
+    height: 590px;
 }
 
 #contact,
@@ -552,10 +552,16 @@ a:focus {
 
 /* Responsive style */
 
+@media (max-width: 575px) {
+   #contact {
+       height: 800px;
+   }
+}
+
 @media (min-width: 576px) {
     .page .content.cover {
-        margin-top: 12rem;
-        margin-bottom: 12rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     #portfolio .items li {
         width: 50%;
@@ -567,8 +573,8 @@ a:focus {
 
 @media (min-width: 768px) {
     .page .content.cover {
-        margin-top: 16rem;
-        margin-bottom: 16rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     #portfolio .items li {
         width: 25%;
@@ -580,8 +586,8 @@ a:focus {
 
 @media (min-width: 992px) {
     .page .content.cover {
-        margin-top: 20rem;
-        margin-bottom: 20rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
     .navbar-light .navbar-nav .nav-link {
         padding-right: 1rem;
